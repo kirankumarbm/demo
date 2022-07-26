@@ -1,0 +1,28 @@
+----(from Report)
+REAL TIME VIDEO STREAMING IN VEHICULAR AD HOC NETWORKS
+
+Real time video streams which capture road conditions
+ can enhance road safety and improve traffic efficiency.
+
+This project aims at reducing the traffic congestion 
+by streaming live video of the accident site 
+for the vehicles approaching the accident location.
+
+We developed a system in which one vehicle informs 
+the other vehicles about accidents that happened 
+prior they reach the place of accident causing more traffic congestion.
+
+ The vehicle in the front having a camera captures the scene of 
+the accident site based on the result of a machine learning model. 
+Once it detects an accident a live video stream will be sent
+ to the vehicle preceding it which cannot see the accident scene.
+
+ Once the vehicle gets the live video it can take an alternate path
+ if it exists before it reaches the place of accident and hence can avoid the traffic congestion. 
+
+We have used socket programming for video transmission,
+ with which the vehicles receive a live video stream of
+ the accident site with a delay less than 150ms.
+ The machine learning model used is Mobilenet SSD, which gives high accuracy 
+in object detection and is basically used for low computational devices like Raspberry Pi. 
+-------
